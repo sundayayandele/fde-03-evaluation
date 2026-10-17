@@ -1,0 +1,36 @@
+{
+  "run_id": "v1.1.0rc1-advanced-financebench",
+  "label": "v1.1.0rc1-advanced",
+  "harness_version": "1.0.0",
+  "created_utc": "2026-10-16T20:43:47+00:00",
+  "target": {
+    "kind": "http",
+    "url": "http://127.0.0.1:8001",
+    "ready": {
+      "status": "ready",
+      "version": "1.1.0",
+      "environment": "local",
+      "index": true,
+      "documents": 84,
+      "chunks": 49326,
+      "dense": [
+        "lsa"
+      ],
+      "answer_mode": "extractive",
+      "retrieval": "hybrid"
+    }
+  },
+  "golden": {
+    "name": "financebench",
+    "version": "v1",
+    "split": "test",
+    "items_sha256": "9542ebae5fbaa9e8a2188037b0b80d6da5d67614050a24439f75bcab87109867",
+    "cases": 71
+  },
+  "judge": {
+    "name": "reference"
+  },
+  "scope": "routed",
+  "concurrency": 4,
+  "cases": 71
+}

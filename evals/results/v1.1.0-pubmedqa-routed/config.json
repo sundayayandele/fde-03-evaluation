@@ -1,0 +1,36 @@
+{
+  "run_id": "v1.1.0-pubmedqa-routed",
+  "label": "v1.1.0-pubmedqa-routed",
+  "harness_version": "1.0.0",
+  "created_utc": "2026-10-16T21:00:02+00:00",
+  "target": {
+    "kind": "http",
+    "url": "http://127.0.0.1:8001",
+    "ready": {
+      "status": "ready",
+      "version": "1.1.0",
+      "environment": "local",
+      "index": true,
+      "documents": 220,
+      "chunks": 1320,
+      "dense": [
+        "lsa"
+      ],
+      "answer_mode": "extractive",
+      "retrieval": "hybrid"
+    }
+  },
+  "golden": {
+    "name": "pubmedqa",
+    "version": "v1",
+    "split": "test",
+    "items_sha256": "00df6139651c5a4b9dbf035a077b31a2271e8e6b5a24c3df5360dde3e8640080",
+    "cases": 103
+  },
+  "judge": {
+    "name": "reference"
+  },
+  "scope": "routed",
+  "concurrency": 4,
+  "cases": 103
+}

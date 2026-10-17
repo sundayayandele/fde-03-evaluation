@@ -1,0 +1,44 @@
+{
+  "judge": "reference",
+  "cases": 390,
+  "agreement": 1.0,
+  "agreement_ci95": [
+    0.9902,
+    1.0
+  ],
+  "kappa": 1.0,
+  "by_answer_type": {
+    "absent": 1.0,
+    "free_text": 1.0,
+    "numeric": 1.0,
+    "span": 1.0,
+    "yes_no_maybe": 1.0
+  },
+  "per_label": {
+    "CORRECT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 145
+    },
+    "INCORRECT": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 165
+    },
+    "REFUSED": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 80
+    }
+  },
+  "confusion": {
+    "CORRECT->CORRECT": 145,
+    "INCORRECT->INCORRECT": 165,
+    "REFUSED->REFUSED": 80
+  },
+  "disagreements": [],
+  "source": "constructed perturbations of financebench, pubmedqa, cuad v1",
+  "judge_config": {
+    "name": "reference"
+  }
+}

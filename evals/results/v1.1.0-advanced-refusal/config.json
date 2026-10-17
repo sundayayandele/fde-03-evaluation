@@ -1,0 +1,36 @@
+{
+  "run_id": "v1.1.0-advanced-refusal",
+  "label": "v1.1.0-advanced",
+  "harness_version": "1.0.0",
+  "created_utc": "2026-10-16T21:01:11+00:00",
+  "target": {
+    "kind": "http",
+    "url": "http://127.0.0.1:8001",
+    "ready": {
+      "status": "ready",
+      "version": "1.1.0",
+      "environment": "local",
+      "index": true,
+      "documents": 84,
+      "chunks": 49329,
+      "dense": [
+        "lsa"
+      ],
+      "answer_mode": "extractive",
+      "retrieval": "hybrid"
+    }
+  },
+  "golden": {
+    "name": "refusal",
+    "version": "v1",
+    "split": "all",
+    "items_sha256": "4515327914f7c9dff9f959308793427335b5edcae09872483849a16d11cd9ad6",
+    "cases": 30
+  },
+  "judge": {
+    "name": "reference"
+  },
+  "scope": "routed",
+  "concurrency": 4,
+  "cases": 30
+}

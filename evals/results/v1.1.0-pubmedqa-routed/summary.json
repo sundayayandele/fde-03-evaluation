@@ -1,0 +1,74 @@
+{
+  "cases": 103,
+  "errors": 0,
+  "accuracy": {
+    "n": 103,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.036
+    ]
+  },
+  "accuracy_answerable": {
+    "n": 103,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.036
+    ]
+  },
+  "by_answer_type": {
+    "yes_no_maybe": {
+      "n": 103,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.036
+      ]
+    }
+  },
+  "by_domain": {
+    "health": {
+      "n": 103,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.036
+      ]
+    }
+  },
+  "false_refusal": {
+    "n": 103,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.036
+    ]
+  },
+  "correct_abstention": null,
+  "retrieval_hit_at_5": {
+    "n": 103,
+    "rate": 0.9806,
+    "ci95": [
+      0.9319,
+      0.9947
+    ]
+  },
+  "citation_precision": 0.9612,
+  "citation_hit": {
+    "n": 103,
+    "rate": 0.9612,
+    "ci95": [
+      0.9044,
+      0.9848
+    ]
+  },
+  "latency_ms": {
+    "p50": 73.7,
+    "p95": 133.8
+  },
+  "cost_usd": {
+    "total": null,
+    "per_question": null
+  }
+}

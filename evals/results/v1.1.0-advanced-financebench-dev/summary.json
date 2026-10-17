@@ -1,0 +1,82 @@
+{
+  "cases": 79,
+  "errors": 0,
+  "accuracy": {
+    "n": 79,
+    "rate": 0.038,
+    "ci95": [
+      0.013,
+      0.1058
+    ]
+  },
+  "accuracy_answerable": {
+    "n": 79,
+    "rate": 0.038,
+    "ci95": [
+      0.013,
+      0.1058
+    ]
+  },
+  "by_answer_type": {
+    "free_text": {
+      "n": 51,
+      "rate": 0.0196,
+      "ci95": [
+        0.0035,
+        0.103
+      ]
+    },
+    "numeric": {
+      "n": 28,
+      "rate": 0.0714,
+      "ci95": [
+        0.0198,
+        0.2265
+      ]
+    }
+  },
+  "by_domain": {
+    "finance": {
+      "n": 79,
+      "rate": 0.038,
+      "ci95": [
+        0.013,
+        0.1058
+      ]
+    }
+  },
+  "false_refusal": {
+    "n": 79,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.0464
+    ]
+  },
+  "correct_abstention": null,
+  "retrieval_hit_at_5": {
+    "n": 79,
+    "rate": 0.6329,
+    "ci95": [
+      0.5228,
+      0.7307
+    ]
+  },
+  "citation_precision": 0.2911,
+  "citation_hit": {
+    "n": 79,
+    "rate": 0.2911,
+    "ci95": [
+      0.2025,
+      0.3991
+    ]
+  },
+  "latency_ms": {
+    "p50": 267.1,
+    "p95": 334.6
+  },
+  "cost_usd": {
+    "total": null,
+    "per_question": null
+  }
+}
